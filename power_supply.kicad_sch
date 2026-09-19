@@ -2288,6 +2288,163 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LM7812_TO220"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM7812_TO220"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Voltage Regulator 1A Positive"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM7812_TO220_0_1"
+				(rectangle
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM7812_TO220_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2423,12 +2580,6 @@
 		(uuid "16ad82bb-b3d5-46dc-bbee-b3baade483bc")
 	)
 	(junction
-		(at 128.27 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f394230-691f-4ad7-8e98-7a5794f5051f")
-	)
-	(junction
 		(at 146.05 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2477,6 +2628,12 @@
 		(uuid "475e4d40-c2cb-4070-b955-027dfa64fcbd")
 	)
 	(junction
+		(at 128.27 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f98df28-a18d-4e36-93f2-49b28ffbedb1")
+	)
+	(junction
 		(at 128.27 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2487,6 +2644,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b84357f-13e2-4607-98e8-8daec8277e27")
+	)
+	(junction
+		(at 140.97 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "771e1597-ceea-486c-b3ff-4496e1e8509c")
 	)
 	(junction
 		(at 209.55 66.04)
@@ -2507,6 +2670,12 @@
 		(uuid "8cfd8667-f36d-454c-9cea-7a6ae4be4635")
 	)
 	(junction
+		(at 233.68 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93704a3f-a41b-44f3-a734-6e17d6adaaa5")
+	)
+	(junction
 		(at 209.55 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2517,6 +2686,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8bf8e8c-ef1f-4f88-b50f-c6e73fadb9cd")
+	)
+	(junction
+		(at 140.97 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af721f1d-afd1-4f34-ad18-fc49a52c36ca")
 	)
 	(junction
 		(at 165.1 52.07)
@@ -2585,6 +2760,16 @@
 			(type default)
 		)
 		(uuid "03b1a574-980e-42cc-8b4f-e15dcb85828f")
+	)
+	(wire
+		(pts
+			(xy 255.27 99.06) (xy 233.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "074248ab-fab9-4c6e-9453-6f7ec16aba9f")
 	)
 	(wire
 		(pts
@@ -2898,6 +3083,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 96.52) (xy 246.38 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9ac3c3-81fe-4ecf-8ab3-a8f8f9cee911")
+	)
+	(wire
+		(pts
 			(xy 128.27 78.74) (xy 128.27 81.28)
 		)
 		(stroke
@@ -2945,6 +3140,16 @@
 			(type default)
 		)
 		(uuid "5a7053ca-aecb-47f7-9df6-975953ff0528")
+	)
+	(wire
+		(pts
+			(xy 233.68 99.06) (xy 233.68 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a89e91-ada4-4b58-805b-7c817c082979")
 	)
 	(wire
 		(pts
@@ -3068,6 +3273,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 96.52) (xy 246.38 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f430a41-e61a-461b-8b69-344e3ceca3e9")
+	)
+	(wire
+		(pts
 			(xy 109.22 77.47) (xy 110.49 77.47)
 		)
 		(stroke
@@ -3128,6 +3343,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 66.04) (xy 146.05 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "932bcf30-f468-4d8e-926f-6021a957ee14")
+	)
+	(wire
+		(pts
 			(xy 118.11 77.47) (xy 120.65 77.47)
 		)
 		(stroke
@@ -3135,6 +3360,16 @@
 			(type default)
 		)
 		(uuid "9475e758-594d-455e-88c9-7b90e4485c3d")
+	)
+	(wire
+		(pts
+			(xy 140.97 41.91) (xy 140.97 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9489b946-3ebc-45e1-a14f-c1ef2187217b")
 	)
 	(wire
 		(pts
@@ -3175,6 +3410,26 @@
 			(type default)
 		)
 		(uuid "a0c9825f-9b73-435b-a6bc-b9cfc8699404")
+	)
+	(wire
+		(pts
+			(xy 135.89 53.34) (xy 140.97 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a41a69-2456-432e-a0a2-61572f9ada2f")
+	)
+	(wire
+		(pts
+			(xy 138.43 45.72) (xy 138.43 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6341a08-e18f-41aa-a0e6-208fbbb870a2")
 	)
 	(wire
 		(pts
@@ -3298,6 +3553,26 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 101.6) (xy 246.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff68dbe-9384-4021-be36-99e494c9964d")
+	)
+	(wire
+		(pts
+			(xy 140.97 53.34) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09ac6db-6c0b-4b49-8df9-376f9ed15619")
+	)
+	(wire
+		(pts
 			(xy 128.27 74.93) (xy 128.27 78.74)
 		)
 		(stroke
@@ -3325,6 +3600,16 @@
 			(type default)
 		)
 		(uuid "c67179cc-0fb0-4340-b7b8-66ca02629684")
+	)
+	(wire
+		(pts
+			(xy 255.27 101.6) (xy 246.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87cb9ad-aab9-47b4-aae2-759064b8657f")
 	)
 	(wire
 		(pts
@@ -3365,16 +3650,6 @@
 			(type default)
 		)
 		(uuid "d7d07139-f8e9-4344-ac0d-b88c1dbeac45")
-	)
-	(wire
-		(pts
-			(xy 233.68 100.33) (xy 233.68 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da7e9442-d169-4418-bdeb-3acddff14279")
 	)
 	(wire
 		(pts
@@ -3458,7 +3733,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 146.05 78.74)
+			(xy 128.27 78.74) (xy 140.97 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3475,16 +3750,6 @@
 			(type default)
 		)
 		(uuid "ecb40b9e-7c2d-470c-a39e-b8a94f311bed")
-	)
-	(wire
-		(pts
-			(xy 146.05 66.04) (xy 128.27 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee66063b-3c76-46c2-a869-8207073bc4db")
 	)
 	(wire
 		(pts
@@ -3528,6 +3793,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 45.72) (xy 138.43 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4c2fbd1-c211-44ed-a8b9-06fb0730676f")
+	)
+	(wire
+		(pts
 			(xy 101.6 91.44) (xy 101.6 85.09)
 		)
 		(stroke
@@ -3538,7 +3813,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 146.05) (xy 245.11 146.05)
+			(xy 227.33 146.05) (xy 246.38 146.05)
 		)
 		(stroke
 			(width 0)
@@ -3558,6 +3833,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 78.74) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6de76bf-fafd-4146-ba3c-c76b2ae8ae6e")
+	)
+	(wire
+		(pts
 			(xy 172.72 52.07) (xy 165.1 52.07)
 		)
 		(stroke
@@ -3565,6 +3850,16 @@
 			(type default)
 		)
 		(uuid "f6eeb0a0-0eea-4417-b868-71a72c70c044")
+	)
+	(wire
+		(pts
+			(xy 128.27 60.96) (xy 128.27 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab02281-a2e0-471b-880b-8f32af93b414")
 	)
 	(wire
 		(pts
@@ -3587,7 +3882,7 @@
 		(uuid "fc69731f-2e0b-4ef9-b894-6b1be2517dfc")
 	)
 	(label "0-(-15)V"
-		(at 245.11 146.05 0)
+		(at 246.38 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3597,7 +3892,7 @@
 		(uuid "4077b7fc-ef08-46f0-a1ea-af67248173b1")
 	)
 	(label "0-15V"
-		(at 246.38 52.07 0)
+		(at 247.65 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4953,6 +5248,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LM7812_TO220")
+		(at 128.27 53.34 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "704fd1d7-5925-407e-ae83-9f6223cf9041")
+		(property "Reference" "U5"
+			(at 124.46 52.0699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM7812_TO220"
+			(at 124.46 54.6099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 122.555 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF"
+			(at 129.54 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"
+			(at 128.27 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "02a57247-dc9b-4735-a4e6-47e16fa1d0c5")
+		)
+		(pin "2"
+			(uuid "f12feb20-2318-4a30-a011-cbbe72cf692c")
+		)
+		(pin "1"
+			(uuid "57def356-ff8f-436e-bada-8058d674a264")
+		)
+		(instances
+			(project "power_supply"
+				(path "/78b582a4-7917-4c69-80b3-c41c24e159d7"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Heatsink_Pad_2Pin")
 		(at 184.15 125.73 0)
 		(unit 1)
@@ -6005,6 +6386,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 260.35 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce0a1194-1820-4eff-a647-ee777e4862ad")
+		(property "Reference" "J4"
+			(at 257.81 94.234 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 259.334 103.886 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G_1x03_P5.00mm_Horizontal"
+			(at 260.35 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 260.35 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ef5de160-879c-472d-9eef-7fcec8ec3af8")
+		)
+		(pin "2"
+			(uuid "edaebca5-1bcb-4724-9f72-2254211249b8")
+		)
+		(pin "1"
+			(uuid "da1979ef-494a-4120-8ae6-4ea5c2b6c15d")
+		)
+		(instances
+			(project "power_supply"
+				(path "/78b582a4-7917-4c69-80b3-c41c24e159d7"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 68.58 77.47 0)
 		(unit 1)
@@ -6246,6 +6709,87 @@
 			(project "power_supply"
 				(path "/78b582a4-7917-4c69-80b3-c41c24e159d7"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 138.43 36.83 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8937e43-a9e4-4dfc-849b-2142ca02a5f9")
+		(property "Reference" "J3"
+			(at 135.128 40.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 147.32 43.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal"
+			(at 138.43 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 138.43 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a0fe772-434d-44bd-91f9-a4d9ca596696")
+		)
+		(pin "2"
+			(uuid "a08b3680-a63f-4eed-90c2-b85a9a9369c8")
+		)
+		(instances
+			(project "power_supply"
+				(path "/78b582a4-7917-4c69-80b3-c41c24e159d7"
+					(reference "J3")
 					(unit 1)
 				)
 			)
