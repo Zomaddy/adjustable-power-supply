@@ -1656,6 +1656,159 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Heatsink_Pad_2Pin"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "HS"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink_Pad_2Pin"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0.3048 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Heatsink with electrical connection, 2 pin"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Heatsink_Pad_2Pin_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 0) (xy -0.9652 0) (xy -0.9652 2.54) (xy -1.6002 2.54) (xy -1.6002 0) (xy -2.2352 0)
+						(xy -2.2352 2.54) (xy -2.8702 2.54) (xy -2.8702 -1.27) (xy -0.9652 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 0) (xy -0.3302 2.54) (xy 0.3048 2.54) (xy 0.3048 0) (xy 0.9398 0) (xy 0.9398 2.54)
+						(xy 1.5748 2.54) (xy 1.5748 0) (xy 2.2098 0) (xy 2.2098 2.54) (xy 2.8448 2.54) (xy 2.8448 -1.27)
+						(xy -0.9652 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Heatsink_Pad_2Pin_1_1"
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Reference_Voltage:LM385BZ-1.2"
 			(pin_names
 				(offset 0.0254)
@@ -2264,6 +2417,12 @@
 		(uuid "15c46e14-8c44-419f-932e-ded15f300d9e")
 	)
 	(junction
+		(at 177.8 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16ad82bb-b3d5-46dc-bbee-b3baade483bc")
+	)
+	(junction
 		(at 128.27 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2334,6 +2493,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7832229d-8b58-442d-b3ef-d7ebd06da40e")
+	)
+	(junction
+		(at 181.61 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a67dcdb-4279-4e97-b832-1d5e196dfe64")
 	)
 	(junction
 		(at 180.34 99.06)
@@ -2443,6 +2608,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 41.91) (xy 177.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1368c8b5-5b27-4ac9-81ee-8ffe9769f70a")
+	)
+	(wire
+		(pts
 			(xy 128.27 88.9) (xy 128.27 95.25)
 		)
 		(stroke
@@ -2470,6 +2645,26 @@
 			(type default)
 		)
 		(uuid "1f5367bf-15c1-4054-843e-3e4eb4bc774a")
+	)
+	(wire
+		(pts
+			(xy 158.75 33.02) (xy 176.53 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f901da7-3dfc-4208-9a0d-772e9ccf2af7")
+	)
+	(wire
+		(pts
+			(xy 177.8 43.18) (xy 167.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2168e1e1-1f33-4d38-a5a5-4716fe9818bb")
 	)
 	(wire
 		(pts
@@ -2523,16 +2718,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 39.37) (xy 203.2 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "280953c4-af0c-43f3-8aae-d77ae8cd3f16")
-	)
-	(wire
-		(pts
 			(xy 165.1 99.06) (xy 165.1 125.73)
 		)
 		(stroke
@@ -2540,6 +2725,16 @@
 			(type default)
 		)
 		(uuid "29759b34-4cb2-4e07-9c53-22eee8f3f8f5")
+	)
+	(wire
+		(pts
+			(xy 175.26 129.54) (xy 181.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b943e44-170a-47ae-950f-af274e7ee344")
 	)
 	(wire
 		(pts
@@ -2623,6 +2818,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 33.02) (xy 184.15 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c9d8b06-180b-4e8d-9c62-b72e65950f78")
+	)
+	(wire
+		(pts
 			(xy 128.27 95.25) (xy 167.64 95.25)
 		)
 		(stroke
@@ -2640,6 +2845,16 @@
 			(type default)
 		)
 		(uuid "3f977ebf-874c-45a0-b8dc-1d462bf6f5bb")
+	)
+	(wire
+		(pts
+			(xy 203.2 33.02) (xy 203.2 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4191698e-f205-4081-a7ad-65650c70a67b")
 	)
 	(wire
 		(pts
@@ -2690,6 +2905,26 @@
 			(type default)
 		)
 		(uuid "50628c52-f649-42a5-891a-d3d1bd804a4c")
+	)
+	(wire
+		(pts
+			(xy 182.88 43.18) (xy 177.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582ad05e-4f3b-4b5b-b33d-9054fee315fe")
+	)
+	(wire
+		(pts
+			(xy 182.88 41.91) (xy 182.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5938da93-8ded-4078-916d-8479df844175")
 	)
 	(wire
 		(pts
@@ -2750,6 +2985,16 @@
 			(type default)
 		)
 		(uuid "69a283ca-0898-4acd-b2c7-8cda68a6dd94")
+	)
+	(wire
+		(pts
+			(xy 186.69 129.54) (xy 181.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af33745-61cf-48a9-981b-9df50e2bd431")
 	)
 	(wire
 		(pts
@@ -2863,6 +3108,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 128.27) (xy 181.61 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8939b03f-3e35-4e8c-bdf3-754ae51b24bd")
+	)
+	(wire
+		(pts
 			(xy 180.34 66.04) (xy 180.34 71.12)
 		)
 		(stroke
@@ -2880,16 +3135,6 @@
 			(type default)
 		)
 		(uuid "9475e758-594d-455e-88c9-7b90e4485c3d")
-	)
-	(wire
-		(pts
-			(xy 176.53 39.37) (xy 158.75 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94d0ee8c-fe8c-4ae0-bc52-49049a120313")
 	)
 	(wire
 		(pts
@@ -2983,6 +3228,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 128.27) (xy 186.69 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae7cb015-1d47-44eb-afd4-d622e76b03c7")
+	)
+	(wire
+		(pts
 			(xy 227.33 146.05) (xy 209.55 146.05)
 		)
 		(stroke
@@ -3020,16 +3275,6 @@
 			(type default)
 		)
 		(uuid "bc8fe9b1-be0c-42ac-9315-ed242bd89040")
-	)
-	(wire
-		(pts
-			(xy 184.15 39.37) (xy 203.2 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9be9ec-f535-430d-afa4-260f27f2dbd6")
 	)
 	(wire
 		(pts
@@ -3113,6 +3358,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 33.02) (xy 158.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d07139-f8e9-4344-ac0d-b88c1dbeac45")
+	)
+	(wire
+		(pts
 			(xy 233.68 100.33) (xy 233.68 99.06)
 		)
 		(stroke
@@ -3170,16 +3425,6 @@
 			(type default)
 		)
 		(uuid "e414d7a0-057a-43f5-a739-7f15d90f8400")
-	)
-	(wire
-		(pts
-			(xy 158.75 39.37) (xy 158.75 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6ed6403-1c01-44ad-8def-f6798094b513")
 	)
 	(wire
 		(pts
@@ -4629,6 +4874,167 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 175.26 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61c9873a-0f60-4697-b657-d6b00aa729c6")
+		(property "Reference" "#PWR05"
+			(at 175.26 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "48a471f5-3d86-4274-89bb-6ba95319f502")
+		)
+		(instances
+			(project "power_supply"
+				(path "/78b582a4-7917-4c69-80b3-c41c24e159d7"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad_2Pin")
+		(at 184.15 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f1c18b1-1536-48fa-89e3-d950c4b1e28b")
+		(property "Reference" "HS2"
+			(at 187.96 123.8249 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad_2Pin"
+			(at 187.96 126.3649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "power_supply_own:RA-T2X-51E"
+			(at 184.4548 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.4548 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 2 pin"
+			(at 184.15 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2a5c4ce0-4666-4912-ae41-f80c226dc6a2")
+		)
+		(pin "1"
+			(uuid "4c2edf45-501e-46b7-a4c1-2dc69f32b10e")
+		)
+		(instances
+			(project "power_supply"
+				(path "/78b582a4-7917-4c69-80b3-c41c24e159d7"
+					(reference "HS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Reference_Voltage:LM385BZ-1.2")
 		(at 180.34 88.9 270)
 		(unit 1)
@@ -4707,6 +5113,88 @@
 			(project "power_supply"
 				(path "/78b582a4-7917-4c69-80b3-c41c24e159d7"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink_Pad_2Pin")
+		(at 180.34 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93ef40c6-57ba-4e7e-8529-9b17cfe54929")
+		(property "Reference" "HS1"
+			(at 184.15 37.4649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Heatsink_Pad_2Pin"
+			(at 184.15 40.0049 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "power_supply_own:RA-T2X-51E"
+			(at 180.6448 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.6448 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 2 pin"
+			(at 180.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ac5d41d7-bc01-4b45-8f75-f4b71367cd6e")
+		)
+		(pin "1"
+			(uuid "5ee579c4-8693-47b9-b3ad-f4cd507220c6")
+		)
+		(instances
+			(project "power_supply"
+				(path "/78b582a4-7917-4c69-80b3-c41c24e159d7"
+					(reference "HS1")
 					(unit 1)
 				)
 			)
@@ -5029,6 +5517,85 @@
 			(project "power_supply"
 				(path "/78b582a4-7917-4c69-80b3-c41c24e159d7"
 					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae8e670a-e3c9-46ce-8506-4be6cae17ea8")
+		(property "Reference" "#PWR04"
+			(at 167.64 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dbfce5f6-a749-4eb0-9c7c-39514ab1a9ea")
+		)
+		(instances
+			(project "power_supply"
+				(path "/78b582a4-7917-4c69-80b3-c41c24e159d7"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5850,7 +6417,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4002")
-		(at 180.34 39.37 0)
+		(at 180.34 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5861,7 +6428,7 @@
 		(fields_autoplaced yes)
 		(uuid "fff7dbac-b8b7-4f69-a6d1-9adc9b24b9ad")
 		(property "Reference" "D6"
-			(at 180.34 33.02 0)
+			(at 180.34 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5871,7 +6438,7 @@
 			)
 		)
 		(property "Value" "1N4002"
-			(at 180.34 35.56 0)
+			(at 180.34 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5881,7 +6448,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 180.34 43.815 0)
+			(at 180.34 37.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5892,7 +6459,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 180.34 39.37 0)
+			(at 180.34 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5903,7 +6470,7 @@
 			)
 		)
 		(property "Description" "100V 1A General Purpose Rectifier Diode, DO-41"
-			(at 180.34 39.37 0)
+			(at 180.34 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5914,7 +6481,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 180.34 39.37 0)
+			(at 180.34 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5925,7 +6492,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 180.34 39.37 0)
+			(at 180.34 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

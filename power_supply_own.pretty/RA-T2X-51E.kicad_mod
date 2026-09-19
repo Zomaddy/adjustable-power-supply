@@ -1,0 +1,87 @@
+(footprint "RA-T2X-51E"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.08 -5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2f68a035-1a88-4f25-a486-681104f21f9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RA-T2X-51E"
+		(at 12.7 15.24 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "05a13b0f-d906-49a2-a85c-bfa4724a2677")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0aba3ff7-474e-4786-bf87-d2f999aed3d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81468ec4-2a23-4e0d-81d6-858bbf840cb2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -8.3 -12.7)
+		(end 33.7 12.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "79a294db-d271-4d8c-9049-fe348a96e5a6")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 4.5 4.5)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc3d27a9-5e7a-45b7-a51f-35b4f4c6953a")
+	)
+	(pad "2" thru_hole circle
+		(at 25.4 0)
+		(size 4.5 4.5)
+		(drill 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b7880cca-0b18-4559-ae04-f591f228ea4e")
+	)
+	(embedded_fonts no)
+)
