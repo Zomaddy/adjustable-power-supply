@@ -250,7 +250,7 @@
 		(property "Reference" "J4"
 			(at 5 -3.2 0)
 			(layer "F.SilkS")
-			(uuid "3391ddcb-5f7c-4686-8e69-4c13ac6e58dc")
+			(uuid "0839529d-39e0-4b71-b2b4-8806eeab4084")
 			(effects
 				(font
 					(size 1 1)
@@ -261,7 +261,7 @@
 		(property "Value" "Conn_01x03_Socket"
 			(at 5 11.2 0)
 			(layer "F.Fab")
-			(uuid "95d5b46a-3127-4f70-9501-408adfd9ac19")
+			(uuid "df863575-5560-4ef7-91bb-336b3702e106")
 			(effects
 				(font
 					(size 1 1)
@@ -273,7 +273,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eaebd569-7548-4c94-b817-0074e83c8801")
+			(uuid "cf916f29-8495-4943-9cd7-7d31c9b21ac6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -284,7 +284,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8a977dcd-e00d-40a4-92aa-c5025f883887")
+			(uuid "f9279ac2-7fb3-4c5d-afef-9f4d1584840c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14448,7 +14448,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C6"
-			(at -2.71 0 180)
+			(at -2.71 0 0)
 			(layer "F.SilkS")
 			(uuid "b6120c05-49aa-427c-ba61-4486cb197ec9")
 			(effects
@@ -14459,7 +14459,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 4.29 -2.75 180)
+			(at 4.29 -2.75 0)
 			(layer "F.Fab")
 			(uuid "cdec834e-73ff-4689-9d9a-7b98855620d4")
 			(effects
@@ -15810,7 +15810,7 @@
 		(descr "TO-92 leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)")
 		(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
 		(property "Reference" "U3"
-			(at -2.22 -0.4 180)
+			(at -2.22 -0.4 0)
 			(layer "F.SilkS")
 			(uuid "d17cf7d5-3dce-4eb3-a5bc-c9401966fd95")
 			(effects
@@ -15821,7 +15821,7 @@
 			)
 		)
 		(property "Value" "LM385BZ-1.2"
-			(at 5.18 -0.2 180)
+			(at 5.18 -0.2 0)
 			(layer "F.Fab")
 			(uuid "bc5c2867-c290-477a-a389-44d7b8afedb8")
 			(effects
@@ -16145,7 +16145,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at -2.5 0 180)
+			(at -2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "934e755b-6d52-4d24-adbc-21a983897645")
 			(effects
@@ -16156,7 +16156,7 @@
 			)
 		)
 		(property "Value" "15k"
-			(at 12.5 0 180)
+			(at 12.5 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "31e48075-e009-495c-bf85-5b66d89be3d6")
@@ -16639,7 +16639,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C5"
-			(at -2.41 0 180)
+			(at -2.41 0 0)
 			(layer "F.SilkS")
 			(uuid "0cf57e0f-f121-4622-9a02-c9c9907de8f9")
 			(effects
@@ -16650,7 +16650,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 4.48 -0.25 180)
+			(at 4.48 -0.25 0)
 			(layer "F.Fab")
 			(uuid "63e9eb0f-4fd0-4b0a-bef0-bca4b3f8903d")
 			(effects
@@ -19912,7 +19912,7 @@
 		(descr "Vishay KBU rectifier package, 5.08mm pitch, see http://www.vishay.com/docs/88656/kbu4.pdf")
 		(tags "Vishay KBU rectifier diode bridge")
 		(property "Reference" "D7"
-			(at -6 1.8 180)
+			(at -6 1.8 0)
 			(layer "F.SilkS")
 			(uuid "c7955e81-f796-45ad-a607-e8d559461706")
 			(effects
@@ -20905,7 +20905,7 @@
 		(uuid "95d28d90-503a-4c86-9195-a0f6056e7215")
 	)
 	(via
-		(at 137.8 74.2)
+		(at 138.8 74.2)
 		(size 1.2)
 		(drill 0.8)
 		(layers "F.Cu" "B.Cu")
